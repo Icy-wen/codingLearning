@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "x-crawl": "^10.1.0"
+  }
+}
