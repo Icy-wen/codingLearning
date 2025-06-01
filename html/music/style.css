@@ -17,9 +17,111 @@
 }
 .body{
     flex: 1;
+    background:#262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
 }
-.footer{
-  height: 72px; 
+.cover{
+    width: 311px;
+    height: 311px;
+    border-radius: 5%;
+    background: purple;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 311px;
+    height: 61px;
+    margin-top: 32px;
+}
+
+.name1{
+    font-family: Roboto, Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: auto;
+
+}
+.name2{
+    font-family: Roboto, Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+}
+.num{
+    display: flex;
+    margin-top: 32px;
+    width: 311px;
+    height: 20px;
+}
+.num1{
+    font-family: Roboto, Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+}
+.line{
+    width: 311px;
+    height: 8px;
+    background: #E6E6E6;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+}
+.player{
+    display: flex;
+    width: 311px;
+    height: 56px;
+    margin-bottom: 77px;
+    margin-top: 28px;
+    align-items: center;
+    justify-content: center;
+
+}
+.pre,
+.next{
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.zhant{
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 28px 28px 28px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.icon-zanting{
+    color: #D9CFF9;
+    font-size: 22px
+}
+.icon-next-copy,
+.icon-next{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+
+.num2{ 
+    font-family: Roboto, Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    margin-left: auto;
+
 }
 .back,
 .more{
@@ -50,4 +152,64 @@
 }
 .icon-gengduo{
     font-size: 22px;
+}
+
+.footer{
+    height: 72px; 
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.song{
+    width: 96px;
+    height: 48px;
+    margin-right: 151px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.img{
+    width: 48px;
+    height: 48px;
+    background: purple;
+    border-radius: 20%;
+    margin-right: 12px;
+    
+}
+.songName{
+    font-family: Roboto, Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.singerName{
+    font-family: Roboto, Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+    line-height: 16px;  
+}
+.love,
+.list{
+    background: #2F2F2F;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: auto;
+
+}
+.icon-liebiao{
+    font-size: 22px;
+    color: #fff;
+}
+.icon-shoucang{
+    font-size: 22px;
+    color: #fff;
 }
