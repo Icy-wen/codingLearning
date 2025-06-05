@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="还原设计稿">
-      <change beforePath="$PROJECT_DIR$/html/music/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/music/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/music/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/music/style.css" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="闭包">
+      <change afterPath="$PROJECT_DIR$/leetcode/栈/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/栈/leecode20.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/栈/leetcode739.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/栈/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/闭包/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/闭包/1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1748078450174</updated>
       <workItem from="1748078454751" duration="8539000" />
-      <workItem from="1748522385991" duration="2517000" />
+      <workItem from="1748522385991" duration="5532000" />
+      <workItem from="1748967285887" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -128,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748705868244</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="还原设计稿">
+      <option name="closed" value="true" />
+      <created>1748768358264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748768358264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="闭包">
+      <option name="closed" value="true" />
+      <created>1748967350442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748967350442</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +159,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="js作用域" />
     <MESSAGE value="还原设计稿" />
-    <option name="LAST_COMMIT_MESSAGE" value="还原设计稿" />
+    <MESSAGE value="闭包" />
+    <option name="LAST_COMMIT_MESSAGE" value="闭包" />
   </component>
 </project>
