@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="栈">
-      <change afterPath="$PROJECT_DIR$/js/js数据存储/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js数据存储/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js数据存储/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/js数据存储/readme.md" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="todolist">
+      <change afterPath="$PROJECT_DIR$/node/user-llm/base/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/user-llm/base/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/user-llm/base/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <updated>1748078450174</updated>
       <workItem from="1748078454751" duration="8539000" />
       <workItem from="1748522385991" duration="5532000" />
-      <workItem from="1748967285887" duration="1537000" />
+      <workItem from="1748967285887" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -156,7 +155,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749134521210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="栈">
+      <option name="closed" value="true" />
+      <created>1749224261119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749224261119</updated>
+    </task>
+    <task id="LOCAL-00010" summary="浮动布局">
+      <option name="closed" value="true" />
+      <created>1749224358229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749224358229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="todolist">
+      <option name="closed" value="true" />
+      <created>1749299879881</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749299879881</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +191,8 @@
     <MESSAGE value="还原设计稿" />
     <MESSAGE value="闭包" />
     <MESSAGE value="栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈" />
+    <MESSAGE value="浮动布局" />
+    <MESSAGE value="todolist" />
+    <option name="LAST_COMMIT_MESSAGE" value="todolist" />
   </component>
 </project>
