@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="todolist">
-      <change afterPath="$PROJECT_DIR$/node/user-llm/base/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/user-llm/base/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/user-llm/base/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="node">
+      <change afterPath="$PROJECT_DIR$/leetcode/递归/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/递归/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/递归/leetcode121.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/递归/leetcode70.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/递归/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <updated>1748078450174</updated>
       <workItem from="1748078454751" duration="8539000" />
       <workItem from="1748522385991" duration="5532000" />
-      <workItem from="1748967285887" duration="3546000" />
+      <workItem from="1748967285887" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749299879881</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="node">
+      <option name="closed" value="true" />
+      <created>1749398328852</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749398328852</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +202,7 @@
     <MESSAGE value="栈" />
     <MESSAGE value="浮动布局" />
     <MESSAGE value="todolist" />
-    <option name="LAST_COMMIT_MESSAGE" value="todolist" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
 </project>
