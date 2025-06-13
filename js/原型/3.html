@@ -1,0 +1,22 @@
+<script>
+    function GrandParent() {
+      this.name = 'grandparent'
+      this.card = 'visa'
+    }
+  
+    function Parent() {
+      this.lastName = '张'
+    }
+  
+    function Child() {
+      this.name = '张三'
+      this.age = 18
+    }
+  
+    const c = new Child()
+  
+    console.log(c.lastName) // 张
+    console.log(c.card)  // visa
+  
+  
+  </script>
