@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="对象">
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="队列">
+      <change afterPath="$PROJECT_DIR$/python/FunctionCall/.env.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/FunctionCall/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/FunctionCall/functioCall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/FunctionCall/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +92,7 @@
       <workItem from="1748522385991" duration="5532000" />
       <workItem from="1748967285887" duration="4238000" />
       <workItem from="1749656342892" duration="3579000" />
+      <workItem from="1749997890670" duration="2852000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -209,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749741451085</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="this">
+      <option name="closed" value="true" />
+      <created>1749997975493</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749997975493</updated>
+    </task>
+    <task id="LOCAL-00017" summary="队列">
+      <option name="closed" value="true" />
+      <created>1749998196818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749998196818</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +247,8 @@
     <MESSAGE value="node" />
     <MESSAGE value="全栈开发" />
     <MESSAGE value="对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="对象" />
+    <MESSAGE value="this" />
+    <MESSAGE value="队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="队列" />
   </component>
 </project>
