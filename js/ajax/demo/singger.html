@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="btn">获取歌手信息</button>
+  <div id="app"></div>
+
+  <script>
+    let btn = document.getElementById('btn')
+    btn.addEventListener('click', () => {
+      // 获取歌手数据
+      getData()
+    })
+
+    function getData() {
+      const xhr = new XMLHttpRequest()  // 创建异步对象
+      xhr.open('GET', 'https://mock.mengxuegu.com/mock/66585c4db462b81cb3916d3e/songer/songer', true) // 准备请求的参数
+      xhr.send() // 发送请求
+      // 监测请求的发送结果
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) { 
+            let data=JSON.parse(xhr.responseText)// 请求成功
+          console.log(data);    
+        }
+      }
+    }
+  </script>
+</body>
+</html>
