@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>按钮</button>
+</body>
+<script>
+    function fn(){
+        console.log("点击按钮");
+    }
+    let btn = document.querySelector('button');
+    btn.addEventListener('click',debounce(fn,2000));
+    function debounce(fn, wait) {
+      var timer = null
+      return function(...arg) {
+        let that = this
+        clearTimeout(timer)
+        timer = setTimeout(function() {
+          fn.call(that, ...arg)
+        }, wait)
+      }
+    }
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>按钮</button>
+</body>
+<script>
+    function fn(){
+        console.log("点击按钮");
+    }
+    let btn = document.querySelector('button');
+    btn.addEventListener('click',throttle(fn,2000));
+    function throttle(fn, wait) {
+      let preTime = 0
+      return function(...arg) {
+        let nowTime = Date.now()  // 第一次点击的时间戳
+        if (nowTime - preTime >= wait) {
+          fn.call(this, ...arg)
+          preTime = nowTime
+        }
+      }
+    }
+</script>
+</html>
