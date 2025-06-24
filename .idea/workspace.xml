@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="functionCall">
-      <change afterPath="$PROJECT_DIR$/python/FunctionCall/.env.local" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="拷贝">
+      <change afterPath="$PROJECT_DIR$/js/this/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/this/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/this/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +92,7 @@
       <workItem from="1748967285887" duration="4238000" />
       <workItem from="1749656342892" duration="3579000" />
       <workItem from="1749997890670" duration="3527000" />
+      <workItem from="1750434183923" duration="2760000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -234,7 +238,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750164555858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="promise">
+      <option name="closed" value="true" />
+      <created>1750434223380</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750434223380</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ajax">
+      <option name="closed" value="true" />
+      <created>1750434420095</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750434420095</updated>
+    </task>
+    <task id="LOCAL-00021" summary="拷贝">
+      <option name="closed" value="true" />
+      <created>1750594244284</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750594244284</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +282,9 @@
     <MESSAGE value="this" />
     <MESSAGE value="队列" />
     <MESSAGE value="functionCall" />
-    <option name="LAST_COMMIT_MESSAGE" value="functionCall" />
+    <MESSAGE value="promise" />
+    <MESSAGE value="ajax" />
+    <MESSAGE value="拷贝" />
+    <option name="LAST_COMMIT_MESSAGE" value="拷贝" />
   </component>
 </project>
