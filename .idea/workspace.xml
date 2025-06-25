@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="防抖">
-      <change afterPath="$PROJECT_DIR$/js/类型判断/instanceof.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/类型判断/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/类型转换/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/类型转换/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="类型判断和类型转换">
+      <change beforePath="$PROJECT_DIR$/js/类型判断/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/类型判断/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/类型转换/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/类型转换/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <workItem from="1748967285887" duration="4238000" />
       <workItem from="1749656342892" duration="3579000" />
       <workItem from="1749997890670" duration="3527000" />
-      <workItem from="1750434183923" duration="4354000" />
+      <workItem from="1750434183923" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -279,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750746782857</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="类型判断和类型转换">
+      <option name="closed" value="true" />
+      <created>1750756936252</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750756936252</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +308,7 @@
     <MESSAGE value="拷贝" />
     <MESSAGE value="this" />
     <MESSAGE value="防抖" />
-    <option name="LAST_COMMIT_MESSAGE" value="防抖" />
+    <MESSAGE value="类型判断和类型转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="类型判断和类型转换" />
   </component>
 </project>

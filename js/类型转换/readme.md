@@ -6,9 +6,6 @@
 # 类型转换
 显式转换和隐式转换只看当前的代码场景，原理是一样的
 
-
-
-
 - 显式类型转换
     - Number() ''-> 0 不传-》0   https://es5.github.io/#x9.3   toNumber()
     - String()    https://es5.github.io/#x9.8   toString()

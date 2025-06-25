@@ -11,9 +11,9 @@
 - 但是不能正确判断基本数据类型
 基本类型默认不访问原型
 
-
-
 # Object.propotype.toString.call()
+
+ToObject()
 
 
 # Array.isArray()
