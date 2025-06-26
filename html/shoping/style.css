@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.store__nav{
+    display: flex;
+    width: 1515px;
+    height: 85px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.05);
+    padding: 0 128px 0 128px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    background-color: #fff;
+}
+.store__nav__logo{
+    width: 55px;
+    height: 43px;
+    margin-right: 43px;
+}
+.store__nav__logo img{
+    width: 100%;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    margin-right: 32px;
+    font-size: 21px;
+}
+
+.list{
+    display: flex;
+ 
+}
+.store__nav__list{
+    flex:1;
+}
+.button--primary{
+    width: 85px;
+    height: 53px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+.login{
+    background-color: #fff;
+    color: #000;
+}
+.register{
+    background-color: #000;
+    color: #fff;
+}
+.store__search{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+.search-box{
+    padding:43px 0;
+}
+.search-box--input{
+    width: 1024px;
+    height: 67px;
+    font-size: 21px;
+    position: relative;
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    box-sizing: border-box;
+    border-radius: 11px 11px 11px 11px;
+    padding-left: 64px;
+    padding-right: 128px;
+}
+.search-button{
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 89px;
+    height: 44px;
+    background-color: #000;
+    color: #fff;
+}
+.search-img{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 23px;
+    left: 21px;
+}
+.search-hot{
+    font-size: 19px;
+    margin-top: 11px;
+    color:  #6B7280;;
+}
+.search-hot a{
+    color: #6B7280;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.catetory-title{
+    padding: 16px 128px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.05);
+}
+.title-list{
+    display: flex;
+
+}
+.title-item{
+    font-size: 21px;
+    margin-right: 43px;
+    color: #4B5563;
+    cursor: pointer;
+}
+.title-item1{
+    font-size: 21px;
+    margin-right: 43px;
+}
+
+.catetory-content{
+    background-color: #F9FAFB;
+    padding: 43px 128px 171px 128px;
+}
+
+.content-banner img{
+    width: 100%;
+
+}
+.content-tese{
+    height: 560px;
+    margin-top: 43px;
+    margin-bottom: 64px;
+    
+}
+.content-tese p{
+    font-size: 32px;
+    font-weight: 600;
+}
+.tese-img{
+    display: flex;
+}
+.tese-img img{
+    margin-top: 32px;
+    margin-right: 32px;
+}

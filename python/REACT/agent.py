@@ -15,7 +15,7 @@ def send_messages(messages):
     response = client.chat.completions.create(
         model="deepseek-chat",  # 使用deepseek-chat模型
         messages=messages,  # 传入消息列表
-        temperature=0.1,  # 设置温度参数，控制生成文本的随机性
+        temperature=0,  # 设置温度参数，控制生成文本的随机性
     )
     return response
 
@@ -32,8 +32,7 @@ if __name__ == "__main__":
     tools=tools,
     tool_name="get_closing_price",
     input=query,
-    yes_or_no="是",  # 可根据实际情况调整
-    agent_scratchpad=""
+    agent_scratchpad=""  # 补全 agent_scratchpad 占位符
   )
     
     # 初始化消息列表
@@ -52,21 +51,21 @@ if __name__ == "__main__":
         print(response_text)
 
         # 检查是否有最终答案
-        # 使用正则表达式搜索回复文本中是否包含"Final Answer:"，\s*匹配任意空白字符，(.*)捕获冒号后面的所有内容
-        final_answer_match = re.search(r'最终答案:\s*(.*)', response_text)
+        final_answer_match = re.search(r'最终答案\s*[:：]\s*([\s\S]*)', response_text, re.IGNORECASE)
         if final_answer_match:
-            # 从正则匹配结果中提取第一个捕获组(括号内匹配到的内容),即"Final Answer:"后面的文本内容
-            final_answer = final_answer_match.group(1)
+            final_answer = final_answer_match.group(1).strip()
             print("最终答案:", final_answer)
-            # 如果有最终答案，结束对话
             break
+        else:
+            print("未检测到最终答案，模型回复如下：")
+            print(response_text)
 
         # 将模型的回复添加到消息历史
         messages.append(response.choices[0].message)
 
         # 解析模型回复中的动作和参数
-        action_match = re.search(r'Action:\s*(\w+)', response_text)
-        action_input_match = re.search(r'Action Input:\s*({.*?}|".*?")', response_text, re.DOTALL)  # 非贪婪匹配，匹配到第一个"}"或"""
+        action_match = re.search(r'行动：\s*(\w+)', response_text)
+        action_input_match = re.search(r'行动输入：\s*({.*?}|".*?")', response_text, re.DOTALL)  # 非贪婪匹配，匹配到第一个"}"或"""
 
         # 如果成功解析到动作和参数
         if action_match and action_input_match:
@@ -79,4 +78,4 @@ if __name__ == "__main__":
                 observation = get_closing_price(params["name"])  # 调用工具函数
                 print("调用第三方API结果:", observation)
                 # 将观察结果添加到消息历史
-                messages.append({'role': 'user', 'content': f"observation:{observation}"})
+                messages.append({'role': 'user', 'content': f"观察：{observation}"})

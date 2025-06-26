@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="类型判断和类型转换">
-      <change beforePath="$PROJECT_DIR$/js/类型判断/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/类型判断/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/类型转换/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/类型转换/readme.md" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="切图练习">
+      <change afterPath="$PROJECT_DIR$/html/shoping/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shoping/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shoping/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shoping/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shoping/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/shoping/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/REACT/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/FunctionCall/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/python/FunctionCall/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/FunctionCall/functioCall.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/FunctionCall/functioCall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/REACT/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/REACT/llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/llm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/REACT/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/prompt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +102,8 @@
       <workItem from="1749656342892" duration="3579000" />
       <workItem from="1749997890670" duration="3527000" />
       <workItem from="1750434183923" duration="4598000" />
+      <workItem from="1750862054048" duration="1692000" />
+      <workItem from="1750948323623" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -284,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750756936252</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ReAct">
+      <option name="closed" value="true" />
+      <created>1750862150022</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750862150022</updated>
+    </task>
+    <task id="LOCAL-00026" summary="定位布局">
+      <option name="closed" value="true" />
+      <created>1750862236280</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1750862236280</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +338,9 @@
     <MESSAGE value="this" />
     <MESSAGE value="防抖" />
     <MESSAGE value="类型判断和类型转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="类型判断和类型转换" />
+    <MESSAGE value="ReAct" />
+    <MESSAGE value="定位布局" />
+    <MESSAGE value="切图练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="切图练习" />
   </component>
 </project>

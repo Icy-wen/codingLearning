@@ -91,14 +91,3 @@ if __name__ == '__main__':
 
 
 
-  # [
-  #   ChatCompletionMessageToolCall(id='call_0_0cbbc0d2-62ca-45e4-9684-1e89a0155e34', 
-  #   function=Function(arguments='{"name": "青岛啤酒"}', name='get_closing_price'), type='function', index=0)
-  # ] 
-
-
-# messages: [
-#   {'role': 'user', 'content': '青岛啤酒的收盘价是多少？'}, 
-#   {'role': 'assistant', 'content': '我需要调用函数来获取青岛啤酒的收盘价。', 'tool_calls': [ChatCompletionMessageToolCall(id='call_0_e174c1a7-7aca-4a8b-98ad-e193e024d9a5', function=Function(arguments='{"name": "青岛啤酒"}', name='get_closing_price'), type='function', index=0)]}, 
-#   {'role': 'tool', 'content': '67.92', 'tool_call_id': 'call_0_e174c1a7-7aca-4a8b-98ad-e193e024d9a5'}
-# ]
