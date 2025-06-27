@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="切图练习">
-      <change afterPath="$PROJECT_DIR$/html/shoping/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/shoping/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/shoping/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/shoping/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/shoping/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/shoping/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/REACT/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/FunctionCall/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/python/FunctionCall/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/FunctionCall/functioCall.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/FunctionCall/functioCall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/REACT/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/REACT/llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/llm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/REACT/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/REACT/prompt.py" afterDir="false" />
-    </list>
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="切图练习" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +89,7 @@
       <workItem from="1749997890670" duration="3527000" />
       <workItem from="1750434183923" duration="4598000" />
       <workItem from="1750862054048" duration="1692000" />
-      <workItem from="1750948323623" duration="345000" />
+      <workItem from="1750948323623" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -313,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750862236280</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="切图练习">
+      <option name="closed" value="true" />
+      <created>1750949376773</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750949376773</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

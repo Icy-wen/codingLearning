@@ -15,7 +15,6 @@ def send_messages(messages):
     response = client.chat.completions.create(
         model="deepseek-chat",  # 使用deepseek-chat模型
         messages=messages,  # 传入消息列表
-        temperature=0,  # 设置温度参数，控制生成文本的随机性
     )
     return response
 
@@ -27,26 +26,16 @@ if __name__ == "__main__":
     query = "青岛啤酒和贵州茅台的收盘价哪个贵？"
     
     # 使用模板构建完整的提示
-    prompt = REACT_PROMPT.format(
-    instructions=instructions,
-    tools=tools,
-    tool_name="get_closing_price",
-    input=query,
-    agent_scratchpad=""  # 补全 agent_scratchpad 占位符
-  )
+    prompt = REACT_PROMPT.format(instructions=instructions,tools=tools,tool_name="get_closing_price",input=query,yes_or_no="是",agent_scratchpad=""
+    )
     
     # 初始化消息列表
     messages = [{"role": "user", "content": prompt}]
 
     # 开始对话循环
     while True:
-        # 发送消息并获取响应
-        # print("发送消息到模型...", messages)
-
         response = send_messages(messages)
         response_text = response.choices[0].message.content
-
-        # 打印模型的回复
         print("大模型的回复：")
         print(response_text)
 
@@ -56,26 +45,25 @@ if __name__ == "__main__":
             final_answer = final_answer_match.group(1).strip()
             print("最终答案:", final_answer)
             break
-        else:
-            print("未检测到最终答案，模型回复如下：")
-            print(response_text)
 
-        # 将模型的回复添加到消息历史
-        messages.append(response.choices[0].message)
-
-        # 解析模型回复中的动作和参数
+        # 检查是否有行动
         action_match = re.search(r'行动：\s*(\w+)', response_text)
-        action_input_match = re.search(r'行动输入：\s*({.*?}|".*?")', response_text, re.DOTALL)  # 非贪婪匹配，匹配到第一个"}"或"""
-
-        # 如果成功解析到动作和参数
+        action_input_match = re.search(r'行动输入：\s*({.*?}|".*?")', response_text, re.DOTALL)
+        print(action_match)
+        print(action_input_match)
         if action_match and action_input_match:
-            tool_name = action_match.group(1)  # 获取工具名称
-            params = json.loads(action_input_match.group(1))  # 解析参数
+            tool_name = action_match.group(1)
+            params = json.loads(action_input_match.group(1))
             print("工具名称:", tool_name)
             print("参数:", params)
 
             if tool_name == "get_closing_price":
-                observation = get_closing_price(params["name"])  # 调用工具函数
+                price = get_closing_price(params["name"])
+                observation = f"{params['name']}的收盘价为{price}元"
                 print("调用第三方API结果:", observation)
-                # 将观察结果添加到消息历史
                 messages.append({'role': 'user', 'content': f"观察：{observation}"})
+        else:
+            # 没有行动也没有最终答案，防止死循环
+            print("未检测到行动或最终答案，模型回复如下：")
+            print(response_text)
+            break

@@ -1,7 +1,7 @@
 function xq() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        console.log('胡总相亲成功');
+        console.log('相亲成功');
         resolve()  // 成功状态
       }, 1000)
     })
@@ -10,7 +10,7 @@ function xq() {
   function marry() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        console.log('胡总结婚了');
+        console.log('结婚了');
         resolve()
       }, 2000)
     })
@@ -18,7 +18,7 @@ function xq() {
   
   function baby() {
     setTimeout(() => {
-      console.log('小胡出生');
+      console.log('小孩出生');
     }, 500)
   }
   
