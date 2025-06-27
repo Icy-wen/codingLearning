@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="切图练习" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="時間循環" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +90,7 @@
       <workItem from="1750434183923" duration="4598000" />
       <workItem from="1750862054048" duration="1692000" />
       <workItem from="1750948323623" duration="965000" />
+      <workItem from="1751039869680" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -307,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750949376773</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="時間循環">
+      <option name="closed" value="true" />
+      <created>1751039920390</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1751039920390</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +344,7 @@
     <MESSAGE value="ReAct" />
     <MESSAGE value="定位布局" />
     <MESSAGE value="切图练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="切图练习" />
+    <MESSAGE value="時間循環" />
+    <option name="LAST_COMMIT_MESSAGE" value="時間循環" />
   </component>
 </project>
