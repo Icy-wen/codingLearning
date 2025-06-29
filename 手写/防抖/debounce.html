@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>防抖按钮示例</title>
 </head>
 <body>
-    <button>按钮</button>
+    <button id="btn">点击按钮</button>
+    <p id="status">等待点击...</p>
+    
+    <script>
+        function fn() {
+            console.log("按钮回调执行");
+            document.getElementById('status').textContent = "回调函数执行于: " + new Date().toLocaleTimeString();
+        }
+        
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', debounce(fn, 2000));
+        
+        // 防抖函数 (延迟执行版)
+        function debounce(fn, wait) {
+            var timer = null;
+            return function(...arg) {
+                let that = this;
+                console.log("触发防抖: 清除前一个定时器，设置新定时器 (" + wait + "ms)");
+                document.getElementById('status').textContent = "等待中... " + wait + "ms";
+                
+                clearTimeout(timer);
+                timer = setTimeout(function() {
+                    console.log("定时器触发，执行回调");
+                    fn.call(that, ...arg);
+                }, wait);
+            }
+        }
+    </script>
 </body>
-<script>
-    function fn(){
-        console.log("点击按钮");
-    }
-    let btn = document.querySelector('button');
-    btn.addEventListener('click',debounce(fn,2000));
-    function debounce(fn, wait) {
-      var timer = null
-      return function(...arg) {
-        let that = this
-        clearTimeout(timer)
-        timer = setTimeout(function() {
-          fn.call(that, ...arg)
-        }, wait)
-      }
-    }
-</script>
 </html>

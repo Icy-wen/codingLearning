@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <button>按钮</button>
+  <button>按钮</button>
 </body>
 <script>
-    function fn(){
-        console.log("点击按钮");
-    }
-    let btn = document.querySelector('button');
-    btn.addEventListener('click',throttle(fn,2000));
-    function throttle(fn, wait) {
-      let preTime = 0
-      return function(...arg) {
-        let nowTime = Date.now()  // 第一次点击的时间戳
-        if (nowTime - preTime >= wait) {
-          fn.call(this, ...arg)
-          preTime = nowTime
-        }
+  function fn() {
+    console.log("点击按钮");
+  }
+  let btn = document.querySelector('button');
+  btn.addEventListener('click', throttle(fn, 2000));
+
+  function throttle(fn, wait) {
+    let preTime = 0;  // 闭包变量：记录上次执行时间
+    return function (...arg) {  // 返回一个新函数作为事件处理函数
+      let nowTime = Date.now();  // 获取当前时间戳
+      if (nowTime - preTime >= wait) {  // 判断是否超过时间间隔
+        fn.call(this, ...arg);  // 执行原函数，并传递参数和上下文
+        preTime = nowTime;  // 更新上次执行时间为当前时间
       }
     }
+  }
 </script>
+
 </html>
