@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="彈性佈局" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +94,7 @@
       <workItem from="1750948323623" duration="965000" />
       <workItem from="1751039869680" duration="482000" />
       <workItem from="1751040402059" duration="79000" />
+      <workItem from="1751211051532" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -325,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751040466857</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="更新">
+      <option name="closed" value="true" />
+      <created>1751211192906</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1751211192906</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +366,7 @@
     <MESSAGE value="切图练习" />
     <MESSAGE value="時間循環" />
     <MESSAGE value="彈性佈局" />
-    <option name="LAST_COMMIT_MESSAGE" value="彈性佈局" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
 </project>
