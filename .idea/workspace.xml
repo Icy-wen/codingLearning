@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="更新">
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="leetcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,8 @@
       <workItem from="1750948323623" duration="965000" />
       <workItem from="1751039869680" duration="482000" />
       <workItem from="1751040402059" duration="79000" />
-      <workItem from="1751211051532" duration="1283000" />
+      <workItem from="1751211051532" duration="2120000" />
+      <workItem from="1751468921406" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -336,14 +337,29 @@
       <option name="project" value="LOCAL" />
       <updated>1751211192906</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="react">
+      <option name="closed" value="true" />
+      <created>1751291464871</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1751291464871</updated>
+    </task>
+    <task id="LOCAL-00032" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1751469064816</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1751469064816</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="js作用域" />
     <MESSAGE value="还原设计稿" />
     <MESSAGE value="闭包" />
@@ -367,6 +383,8 @@
     <MESSAGE value="時間循環" />
     <MESSAGE value="彈性佈局" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="react" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
 </project>
