@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="leetcode">
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="钩子函数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-hooks/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-hooks/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-hooks/src/App3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-hooks/src/App3.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-hooks/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-hooks/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +99,7 @@
       <workItem from="1751040402059" duration="79000" />
       <workItem from="1751211051532" duration="2120000" />
       <workItem from="1751468921406" duration="307000" />
+      <workItem from="1751557313278" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -353,14 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1751469064816</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="钩子函数">
+      <option name="closed" value="true" />
+      <created>1751557509311</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1751557509311</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="js作用域" />
     <MESSAGE value="还原设计稿" />
     <MESSAGE value="闭包" />
     <MESSAGE value="栈" />
@@ -385,6 +396,7 @@
     <MESSAGE value="更新" />
     <MESSAGE value="react" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="钩子函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="钩子函数" />
   </component>
 </project>

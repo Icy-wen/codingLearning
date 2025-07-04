@@ -1,44 +1,29 @@
-import { useState, useReducer } from "react";
-import { produce } from "immer";
+import React, { useReducer } from 'react';
 
-function reducer(state, action) {
-  // eslint-disable-next-line default-case
+// 定义reducer函数
+const counterReducer = (state, action) => {
   switch (action.type) {
-    case "add":
-      // return {
-      //   result: state.result + action.num
-      // }
-      // state.result = state.result + action.num
-      return produce(state, (state) => {
-        state.a.b.c += action.num;
-      });
-    case "minus":
-      return {
-        result: state.result - action.num,
-      };
+    case 'increment':
+      return { count: state.count + 1 };
+    case 'decrement':
+      return { count: state.count - 1 };
+    case 'reset':
+      return { count: 0 };
+    default:
+      throw new Error(`Unknown action: ${action.type}`);
   }
-}
+};
 
-function App() {
-  // useReducer 接受的第二的参数作为 reducer 的第一个参数，
-  // dispatch 接受的参数，作为reducer 的第二个参数
-  const [res, dispatch] = useReducer(reducer, {
-    result: 0,
-    a: { b: { c: 1, d: { e: 2 } } },
-  });
-
-  const [num, setNum] = useState({ result: 0 });
+function Counter() {
+  const [state, dispatch] = useReducer(counterReducer, { count: 0 });
 
   return (
     <div>
-      <h3>{res.a.b.c}</h3>
-      <button onClick={() => dispatch({ type: "add", num: 2 })}>+</button>
-      <button onClick={() => dispatch({ type: "minus", num: 1 })}>-</button>
-
-      <h2>{num.result}</h2>
-      <button onClick={() => setNum({ result: num.result + 2 })}>+</button>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+      <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
     </div>
   );
 }
-
-export default App;
+export default Counter;

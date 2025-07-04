@@ -23,3 +23,12 @@
 
       2. useReducer + immer 
 5. useRef -- 获取 DOM 结构
+6. useContext -- 跨多层组件进行数据传递
+
+# UI 框架
+
+
+启动后端，在 _mock文件夹下执行： json-server db.json --watch --port 3001
+初次加载页面，展示后端返回的所有数据 get http://localhost:3001/data
+搜索某一条数据的功能 get http://localhost:3001/data/?name=xxx
+删除表格中某一条数据的功能 delete http://localhost:3001/data/${id}
