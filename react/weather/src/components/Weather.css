@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hd{
+    display: flex;
+    height: 53px;
+    background: #8E6FF7;
+    align-items: center;
+}
+.city{
+    display: flex;
+    align-items: center;
+    width: 73px;
+    height: 28px;
+    margin-left: 16px;
+}
+.beijing{
+    font-family: Roboto, Roboto;
+    font-weight: 400;
+    font-size: 18px; 
+    margin-left: 16px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+.icon-position-mark{
+    width: 11px;
+    height: 14px;
+    color: #FFFFFF;
+
+}
+.chang-btn{
+    width: 102px;
+height: 29px;
+background: rgba(255,255,255,0.2);
+border-radius: 4px 4px 4px 4px;
+margin-left: 169px;
+color: #FFFFFF;
+outline: none;
+}
+.change{
+width: 56px;
+height: 21px;
+font-family: Roboto, Roboto;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 21px;
+text-align: center;
+font-style: normal;
+text-transform: none;
+}
+.iconfont icon-chengshi{
+    width: 18px;
+height: 14px;
+background: #FFFFFF;
+
+}
+.btn-content{
+    display: flex;
+    margin-left: 12px;
+    margin-right: 13px;
+    align-items: center;
+}
+.temp-info{
+    font-family: Roboto, Roboto;
+font-weight: 300;
+font-size: 60px;
+color: #000000;
+line-height: 60px;
+text-align: center;
+font-style: normal;
+text-transform: none;
+
+}
+.today{
+    width: 343px;
+height: 230px;
+background: linear-gradient( 146deg, rgba(142,111,247,0.1) 0%, rgba(142,111,247,0.05) 100%), rgba(0,0,0,0);
+border-radius: 16px 16px 16px 16px;
+margin-left: 16px;
+margin-top: 7px;
+padding-top: 24px;
+}
+.weather-info{
+    font-family: Roboto, Roboto;
+font-weight: 400;
+font-size: 14px;
+color: #4B5563;
+line-height: 21px;
+text-align: center;
+font-style: normal;
+text-transform: none;
+margin-top: 8px;
+}
+.wind-list{
+    display: flex;
+    width: 295px;
+    height: 69px;
+    margin-left: 24px;
+    margin-top: 24px;
+
+}
+.wind-list li{
+    list-style-type: none; 
+    flex: 1;
+    text-align: center;   
+}
+.icon-fengli,.icon-shidu,.icon-fengxiang{
+    color: #8E6FF7;
+}
+p{
+    font-family: Roboto, Roboto;
+font-weight: 400;
+font-size: 16px;
+color: #000000;
+line-height: 24px;
+text-align: center;
+font-style: normal;
+text-transform: none;
+}
+.discrib{
+    font-family: Roboto, Roboto;
+font-weight: 400;
+font-size: 14px;
+color: #4B5563;
+line-height: 20px;
+text-align: center;
+font-style: normal;
+text-transform: none;
+margin-top: 8px;
+}
+.future-title{
+    font-family: Roboto, Roboto;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+line-height: 28px;
+text-align: left;
+font-style: normal;
+text-transform: none;
+margin-left: 16px;
+margin-top: 24px;
+
+}
+.future-list{
+  display: flex;
+  overflow-x: scroll;
+}
+.future-item{
+    list-style-type: none;
+    background: #FFFFFF rgba(0,0,0,0.001);
+    box-shadow: 0px 1 2px 0px rgba(0,0,0,0.05);
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #F3F4F6;
+    margin-left: 16px;
+    width: 120px;
+    height: 158px;
+    flex: 0 0 120px;
+    padding: 17px;
+    box-sizing: border-box;
+}
+.future-item :last-child{
+    margin-right: 16px;
+}
+.future-item .week{
+    font-family: Roboto, Roboto;
+font-weight: 400;
+font-size: 14px;
+color: #4B5563;
+line-height: 20px;
+text-align: left;
+font-style: normal;
+text-transform: none;
+margin-bottom: 8px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 64px;
+    height: 64px;
+    margin-left: 11px;
+}
+.max-min{
+    font-size: 14px;
+color: #9CA3AF;
+text-align: center;
+margin-top: 8px;
+}
