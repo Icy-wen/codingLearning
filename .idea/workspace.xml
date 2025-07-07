@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="管理系统">
-      <change afterPath="$PROJECT_DIR$/react/student-manage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/assets/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/views/layout/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/views/login/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/student-manage/src/views/login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="管理系统" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +95,7 @@
       <workItem from="1751211051532" duration="2120000" />
       <workItem from="1751468921406" duration="307000" />
       <workItem from="1751557313278" duration="1984000" />
-      <workItem from="1751644055495" duration="2062000" />
+      <workItem from="1751644055495" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -396,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751722256989</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="管理系统">
+      <option name="closed" value="true" />
+      <created>1751817108967</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1751817108967</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
