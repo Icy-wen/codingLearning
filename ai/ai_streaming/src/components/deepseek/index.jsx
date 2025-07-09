@@ -11,7 +11,7 @@ function Deepseek() {
     //与deepseek交互
     const endpoint = "https://api.deepseek.com/chat/completions";
     const headers = {
-      Authorization: `Bearer ${import.meta.env.VITE_DEEKSEEK_KEY}`,
+      Authorization: `Bearer ${import.meta.env.VITE_DEEPSEEK_KEY}`,
       "Content-Type": "application/json",
     };
     const response = await fetch(endpoint, {

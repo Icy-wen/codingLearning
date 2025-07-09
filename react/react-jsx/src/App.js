@@ -29,6 +29,7 @@ function App() {//根组件 父组件
   const styleObj={
     color:'green'
   }
+
   return (
     <div className="App">
       {/* <h1>Hello {name}</h1> */}
@@ -51,7 +52,7 @@ function App() {//根组件 父组件
       <h1>hello react</h1>
       <List data={songs}></List>
     </div>
-    
+
   );
 }
 export default App;
