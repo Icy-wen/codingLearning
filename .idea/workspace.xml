@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="流式输出">
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="node basic">
+      <change afterPath="$PROJECT_DIR$/TS/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/1.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/App2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/components/calendar/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/components/calendar/MonthCalendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/components/calendar/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/components/calendar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/react-ts/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai/ai_streaming/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/ai/ai_streaming/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai/ai_streaming/src/components/deepseek/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/ai/ai_streaming/src/components/deepseek/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai/ai_streaming/src/components/deepseek/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ai/ai_streaming/src/components/deepseek/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/react-base/react-basic/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/react-basic/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/react-base/react-basic/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-base/react-basic/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/react-jsx/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-jsx/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +124,7 @@
       <workItem from="1751468921406" duration="307000" />
       <workItem from="1751557313278" duration="1984000" />
       <workItem from="1751644055495" duration="9971000" />
-      <workItem from="1752027660251" duration="2686000" />
+      <workItem from="1752027660251" duration="6207000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -418,14 +438,26 @@
       <option name="project" value="LOCAL" />
       <updated>1751978406020</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="node basic">
+      <option name="closed" value="true" />
+      <created>1752074358675</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1752074358675</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TS/1.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="todolist" />
     <MESSAGE value="node" />
     <MESSAGE value="全栈开发" />
     <MESSAGE value="对象" />
@@ -450,6 +482,7 @@
     <MESSAGE value="管理系统" />
     <MESSAGE value="受控组件和不受控组件" />
     <MESSAGE value="流式输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="流式输出" />
+    <MESSAGE value="node basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="node basic" />
   </component>
 </project>

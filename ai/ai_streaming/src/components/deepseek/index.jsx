@@ -11,7 +11,7 @@ function Deepseek() {
     //与deepseek交互
     const endpoint = "https://api.deepseek.com/chat/completions";
     const headers = {
-      Authorization: `Bearer ${import.meta.env.VITE_DEEPSEEK_KEY}`,
+      Authorization: `Bearer ${import.meta.env.VITE_DEEKSEEK_KEY}`,
       "Content-Type": "application/json",
     };
     const response = await fetch(endpoint, {
@@ -35,13 +35,16 @@ function Deepseek() {
     // 流式输出
     if (streaming) {
       const reader = response.body.getReader(); // 读取器
+      console.log(reader)
       const decoder = new TextDecoder(); // 解码二进制数据
       let done = false;
       let buffer = "";
 
       while (!done) {
         const { value, done } = await reader.read(); // 读取到二进制数据
+        console.log(value)
         const chunkValue = buffer + decoder.decode(value);
+        console.log(chunkValue)
         buffer = "";
         const lines = chunkValue
           .split("\n")

@@ -1,0 +1,94 @@
+.calendar-month{
+    &-weeklist{
+        display: flex;
+        padding: 0;
+        width: 100%;
+        box-sizing:border-box ;
+        border-bottom: 1px solid #e5e5e5;
+        .weeklist-item{
+            flex: 1;
+            text-align: left;
+            padding: 20px 16px;
+            color:#7d7d7f;
+        }
+        
+    }
+}
+
+.month-body{
+    &-row{
+        display: flex;
+        height: 100px;
+    }
+    &-cell{
+        flex: 1;
+        border: 1px solid #e5e5e5;
+        padding: 10px; 
+        color: #e5e5e5; 
+        cursor: pointer;
+        transition: background 0.2s;
+        &-current{
+            color: #0c0c0c;
+        }
+        &-today{
+            background: #e6f7ff !important; /* 浅蓝色 */
+            color: #1890ff !important;
+            
+        }
+        &-selected{
+            background: #1890ff !important;
+            color: #fff !important;
+            border-radius: 50%;
+        }
+    }
+}
+
+.calendar-header {
+    &-left {
+        display: flex;
+        align-items: center;
+
+        height: 28px;
+        line-height: 28px;
+    }
+
+    &-value {
+        font-size: 20px;
+    }
+
+    &-btn {
+        background: #eee;
+        cursor: pointer;
+        border: 0;
+        padding: 0 15px;
+        line-height: 28px;
+
+        &:hover {
+            background: #ccc;
+        }
+    }
+  
+    &-icon {
+        width: 28px;
+        height: 28px;
+
+        line-height: 28px;
+    
+        border-radius: 50%;
+        text-align: center;
+        font-size: 12px;
+
+        user-select: none;
+        cursor: pointer;
+
+        margin-right: 12px;
+        &:not(:first-child) {
+            margin: 0 12px;
+        }
+
+        &:hover {
+            background: #ccc;
+        }
+    }
+  
+}
