@@ -1,0 +1,21 @@
+import { useState, useRef } from "react"
+import Child from "./Child.jsx"
+
+export default function Parent() {
+  const [list, setList] = useState(['html', 'css', 'js'])
+  const inputRef = useRef(null)
+
+  const handler = () => {
+    setList([...list, inputRef.current.value])
+  }
+
+  return (
+    <div>
+      <div className="hd">
+        <input type="text" ref={inputRef}/>
+        <button onClick={handler}>确认</button>
+      </div>
+      <Child list={list} />
+    </div>
+  )
+}
