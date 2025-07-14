@@ -4,12 +4,13 @@ let obj = {
     sex:'男',
     friends:['李四','王五','赵六']
 }
-obj.prototype.class='1'
+
+
 function shallowCopy(obj){
     let newObj = {}
     for(let key in obj){
         if(obj.hasOwnProperty(key)){
-            newObj[key]
+            newObj[key]= obj[key]
         }
     }
     return newObj

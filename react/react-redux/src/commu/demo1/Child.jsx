@@ -1,6 +1,6 @@
-export default function Child({ list }) {
-  console.log(list);
-  
+export default function Child(props) {
+  console.log(props);
+  const list=props.list
   return (
     <div className="bd">
         <ul>

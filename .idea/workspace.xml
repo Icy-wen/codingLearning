@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="设计模式" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="redux">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/拷贝/deep.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/拷贝/deep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/拷贝/shollow.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/拷贝/shollow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-redux/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-redux/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-redux/src/commu/demo1/Child.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-redux/src/commu/demo1/Child.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/react-redux/src/commu/demo2/Parent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/react-redux/src/commu/demo2/Parent.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +53,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wen/WebstormProjects/coding/react&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,9 +63,15 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\soft\\WebStorm 2024.3.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wen\WebstormProjects\coding\react" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/scope/1.js" working-dir="$PROJECT_DIR$/js/scope">
       <method v="2" />
@@ -100,6 +114,8 @@
       <workItem from="1752027660251" duration="6925000" />
       <workItem from="1752198393663" duration="747000" />
       <workItem from="1752240838982" duration="18000" />
+      <workItem from="1752241886075" duration="11230000" />
+      <workItem from="1752507321129" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -437,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752165728025</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="redux">
+      <option name="closed" value="true" />
+      <created>1752242127597</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1752242127597</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对象" />
     <MESSAGE value="队列" />
     <MESSAGE value="functionCall" />
     <MESSAGE value="promise" />
@@ -500,6 +523,7 @@
     <MESSAGE value="node basic" />
     <MESSAGE value="typescript" />
     <MESSAGE value="设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
+    <MESSAGE value="redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux" />
   </component>
 </project>
