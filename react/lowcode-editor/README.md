@@ -9,20 +9,27 @@
 
 3. 将json展示成树状图
 
-
-
-
-
 # tailwindcss
 - 原子化css，只需要写类名，不需要写css，尤其在低代码平台被用到
 npm install tailwindcss  postcss  autoprefixer
 
 npx tailwindcss init -p  初始化 使用postcss
 
-
-
 # 准备
 npm i allotment --save 拖动改变容器大小
 
 # zustand 仓库
 1. npm i zustand --save
+
+# 项目梳理
+
+1. 创建了 componentsStore 仓库 存放整个json对象(components 数组) ，定义了如何往该json对象中植入子对象（组件）的函数，和移除子对象，更新子对象的函数
+
+2. 创建了 componentConfigStore 仓库 存放一个对象，该对象用来映射每一个json对象的组件名，对应的真实组件的源代码
+
+3. 定义了renderComponents函数用来渲染json为真实的html结构，借助React.createElement实现递归渲染（直接返回标签不行）
+
+4. 实现物料区 组件 拖拽到画布区
+
+react-dnd
+react-dnd-html5-backend

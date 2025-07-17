@@ -4,32 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="kling">
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/vite.config.ts" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="低代码平台">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +119,7 @@
       <workItem from="1752240838982" duration="18000" />
       <workItem from="1752241886075" duration="11230000" />
       <workItem from="1752507321129" duration="24000" />
-      <workItem from="1752507519882" duration="3233000" />
+      <workItem from="1752507519882" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -497,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752593320737</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="低代码平台">
+      <option name="closed" value="true" />
+      <created>1752679030860</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1752679030860</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="promise" />
     <MESSAGE value="ajax" />
     <MESSAGE value="拷贝" />
     <MESSAGE value="this" />
@@ -560,6 +551,7 @@
     <MESSAGE value="redux" />
     <MESSAGE value="问卷调查" />
     <MESSAGE value="kling" />
-    <option name="LAST_COMMIT_MESSAGE" value="kling" />
+    <MESSAGE value="低代码平台" />
+    <option name="LAST_COMMIT_MESSAGE" value="低代码平台" />
   </component>
 </project>
