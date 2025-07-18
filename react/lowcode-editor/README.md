@@ -31,5 +31,17 @@ npm i allotment --save 拖动改变容器大小
 
 4. 实现物料区 组件 拖拽到画布区
 
-react-dnd
-react-dnd-html5-backend
+    1. react-dnd
+    react-dnd-html5-backend
+
+
+    2. 真的拖拽（实现拖拽效果）一个组件到中间区域，就要将这个名字对应的对象植入到json中
+
+    3. 借助 react-dnd中的useDrop 来接收组件
+
+    4. 抽离useDrop代码，封装成一个hook
+
+    5. 当中间画布展示好了组件之后，我们封装了一个HoverMask组件，为了实现用户鼠标移入哪一个组件上，组件展示一个被选择的效果
+    - HoverMask：接收一个组件类名，通过js获取到该容器的几何属性，动态的将mask容器也设置成相同的大小并覆盖在组件容器上
+
+

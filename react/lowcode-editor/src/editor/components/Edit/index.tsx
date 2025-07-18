@@ -1,31 +1,15 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useComponentsStore } from '../../stores/components'
 import type { Component } from '../../stores/components'
 import { useComponentConfigStore } from '../../stores/component-config'
+import { useState } from 'react'
+import HoverMask from '../HoverMask'
 
 export default function EditArea() {
   const { components, addComponents} = useComponentsStore()
   const { componentsConfig } = useComponentConfigStore()
-
-  useEffect(() => {
-    addComponents({
-      id: 2,
-      name: 'Container',
-      props: {},
-      desc: '页面容器'
-    }, 1)
-
-    addComponents({
-      id: 3,
-      name: 'Button',
-      props: {
-        text: '提交'
-      },
-      desc: '按钮',
-      children: []
-    }, 2)
-
-  }, [])
+  const [hoverComponentId,setHoverComponentId]=useState<number>()
+ 
 
   function renderComponents(components: Component[]): React.ReactNode {
     return components.map((component: Component) => {
@@ -38,6 +22,8 @@ export default function EditArea() {
         config.component,
         {
           key: component.id,
+          id: component.id,
+          name: component.name,
           ...config.defaultProps,
           ...component.props
         },
@@ -45,16 +31,31 @@ export default function EditArea() {
       )
     })
   }
+  const handleMouseOver:React.MouseEventHandler=(e)=>{
+    const path=e.nativeEvent.composedPath()
+    for(let i=0;i<path.length;i++){
+      const ele=path[i] as HTMLElement
+      const componentId=ele.dataset.componentId
+      //console.log(componentId);
 
-  return (
-    <div >
-      {/* {renderComponents(components)} */}
-      {/* <pre>
-        {
-          JSON.stringify(components, null, 2)
-        }
-      </pre> */}
       
-    </div>
+      if(componentId){
+        setHoverComponentId(+componentId)
+        return
+      }
+    }
+    
+  }
+  return (
+    <div className='h-[100%] edit-area' onMouseOver={handleMouseOver} onMouseOut={()=>setHoverComponentId(undefined)}>
+      
+      {renderComponents(components)}
+      {hoverComponentId&&(
+        <HoverMask componentId={hoverComponentId} 
+        containerClassName='edit-area'
+        portalWrapperClassName='portal-wrapper'></HoverMask>
+      )}
+      <div className="portal-wrapper"></div>
+  </div>
   )
 }

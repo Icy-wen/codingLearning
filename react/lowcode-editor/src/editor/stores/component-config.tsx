@@ -30,7 +30,10 @@ export const useComponentConfigStore=create<State&Action>(
             },
             Button:{
                 name:'Button',
-                defaultProps:{},
+                defaultProps:{
+                    text:'按钮',
+                    type:'primary',
+                },
                 component:Button
             }
         },
