@@ -17,11 +17,15 @@ export function useMaterialDrop(accept: string[], id: number) {
             }
             //将该组件的对象植入到json中
             const props = componentsConfig?.[item.type]?.defaultProps;
+            const desc = componentsConfig?.[item.type]?.desc;
             addComponents({
                 id: new Date().getTime(),
                 name: item.type,
                 props: props,
-
+                desc:desc,
+                style:{
+                    backgroundColor:'red'
+                }
             }, id)
         },
         //接收区域

@@ -1,18 +1,23 @@
 import { create } from 'zustand'
+import type { CSSProperties } from 'react'
+
 export interface State {
-    components: Component[]
+    components: Component[],
+    curComponentId:number|null,
+    curComponent:Component|null,
 
 }
 export interface Action {
     addComponents: (component: any, parentId: number) => void
     deleteComponents: (componentId: number) => void;
     updateComponents: (componentId: number, props: any) => void;//更新组件属性
-
+    updateComponentsStyle: (componentId: number, styles: CSSProperties) => void;
 }
 export interface Component {
     id: number,
     name: string,
     props: any,
+    styles?:CSSProperties,
     desc: string,
     children?: Component[],
     parentId?: number
@@ -20,7 +25,7 @@ export interface Component {
 export const useComponentsStore = create<State & Action>(
     (set,get) => ({
         // 数据
-        components: [
+        components: [//整个项目的json树
             {
                 id: 1,
                 name: 'Page',
@@ -28,6 +33,8 @@ export const useComponentsStore = create<State & Action>(
                 desc: '页面'
             }
         ],
+        curComponentId:null,
+        curComponent:null,
         // 方法
         //本质上就是要将一个对象添加到另一个对象中
         addComponents: (component: any, parentId: number) => {
@@ -80,7 +87,27 @@ export const useComponentsStore = create<State & Action>(
                         components:[...state.components]
                 }
             })
-        }
+        },
+        updateComponentsStyle: (componentId: number, styles: CSSProperties) => {
+            set((state)=>{
+                const component=getComponentById(componentId,state.components);
+                if(component){
+                    component.styles={...component.styles,...styles};
+                    return{
+                        components:[...state.components]
+                    }
+                }
+                return{
+                        components:[...state.components]
+                }
+            })
+        }, 
+        setCurComponentId: (componentId: number) => {
+            set((state)=>({
+                curComponentId:componentId,
+                curComponent:getComponentById(componentId,state.components)
+            }))
+        },
     })
 )
 

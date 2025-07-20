@@ -5,20 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="低代码平台">
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/HoverMask/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/MaterialItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/hooks/useMaterialDrop.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/SelectedMask/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentAttr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentEvent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentStyle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/CssEditor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/HoverMask/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/HoverMask/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/hooks/useMaterialDrop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/hooks/useMaterialDrop.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Button/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Container/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Container/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Page/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/component-config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/component-config.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +130,7 @@
       <workItem from="1752240838982" duration="18000" />
       <workItem from="1752241886075" duration="11230000" />
       <workItem from="1752507321129" duration="24000" />
-      <workItem from="1752507519882" duration="4868000" />
+      <workItem from="1752507519882" duration="6869000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -502,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752744544304</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="低代码平台">
+      <option name="closed" value="true" />
+      <created>1752843884214</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1752843884214</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

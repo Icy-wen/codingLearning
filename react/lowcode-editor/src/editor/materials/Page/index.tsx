@@ -3,12 +3,10 @@ import { message } from 'antd'
 import { useMaterialDrop } from '../../hooks/useMaterialDrop'
 
 
-export default function Page({ children, id, name }: CommonComponentProps) {
+export default function Page({ children, id, name,styles }: CommonComponentProps) {
+
 
   const { canDrop, dropRef, contextHolder } = useMaterialDrop(['Button', 'Container', 'Page'], id);
-
-
-
 
   return (
     <>
@@ -16,7 +14,7 @@ export default function Page({ children, id, name }: CommonComponentProps) {
       <div
         data-component-id={id}
         ref={dropRef} className='p-[20px] h-[100%] box-border'
-        style={{ border: canDrop ? '2px solid blue' : 'none' }}
+        style={{ border: canDrop ? '2px solid blue' : 'none',...styles }}
       >
         {children}
       </div>
