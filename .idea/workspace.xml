@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="低代码平台">
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/SelectedMask/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentAttr.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentEvent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/ComponentStyle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/CssEditor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Edit/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/HoverMask/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/HoverMask/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Materail/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/components/Setting/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/hooks/useMaterialDrop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/hooks/useMaterialDrop.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Button/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Container/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Container/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/materials/Page/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/component-config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/component-config.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react/lowcode-editor/src/editor/stores/components.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +42,26 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.1.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/wen/WebstormProjects/coding/react",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "D:\\study program\\coding\\react\\questionnaire\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.1.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wen/WebstormProjects/coding/react&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\study program\\coding\\react\\questionnaire\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wen\WebstormProjects\coding\react" />
@@ -130,7 +111,7 @@
       <workItem from="1752240838982" duration="18000" />
       <workItem from="1752241886075" duration="11230000" />
       <workItem from="1752507321129" duration="24000" />
-      <workItem from="1752507519882" duration="6869000" />
+      <workItem from="1752507519882" duration="7647000" />
     </task>
     <task id="LOCAL-00001" summary="js作用域">
       <option name="closed" value="true" />
@@ -516,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752843884214</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="低代码平台">
+      <option name="closed" value="true" />
+      <created>1753021679748</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1753021679748</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
