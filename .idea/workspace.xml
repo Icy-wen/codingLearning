@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="低代码平台">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/pages/Login/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/pages/Login/index.module.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/router/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/noteBook/client/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +127,8 @@
       <workItem from="1752241886075" duration="11230000" />
       <workItem from="1752507321129" duration="24000" />
       <workItem from="1752507519882" duration="7647000" />
-    </task>
-    <task id="LOCAL-00001" summary="js作用域">
-      <option name="closed" value="true" />
-      <created>1748274233086</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748274233086</updated>
+      <workItem from="1753284814859" duration="230000" />
+      <workItem from="1753285119166" duration="1893000" />
     </task>
     <task id="LOCAL-00002" summary="js作用域">
       <option name="closed" value="true" />
@@ -505,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753021679748</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="低代码平台">
+      <option name="closed" value="true" />
+      <created>1753284939240</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1753284939241</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
