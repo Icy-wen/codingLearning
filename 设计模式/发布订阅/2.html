@@ -1,4 +1,5 @@
-class EventEmitter {
+<script>
+    class EventEmitter {
     //构造函数，初始化事件列表  eventName: [cb1,cb2,cb3]
     constructor() {
         this.eventList = {
@@ -38,16 +39,19 @@ class EventEmitter {
         this.on(eventName, wrap)
     }
 }
-
-
-
-
-
-let _event = new EventEmitter()
-
-function kang() {
-
+const eventEmitter=new EventEmitter()
+function fnA(){
+    setTimeout(()=>{
+        console.log('fnA执行了')
+        eventEmitter.emit('next')
+    },1000)
 }
-_event.on('has', kang)
-
-_event.emit('has')//发布=》kang被调用
+function fnB(){
+    setTimeout(()=>{
+        console.log('fnB执行了');
+        
+    },500)
+}
+eventEmitter.on('next',fnB)
+fnA()
+</script>

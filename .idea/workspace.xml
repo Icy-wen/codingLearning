@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="低代码平台">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/pages/Login/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/pages/Login/index.module.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/src/router/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/noteBook/client/vite.config.js" beforeDir="false" />
-    </list>
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="发布订阅" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,14 +112,7 @@
       <workItem from="1752507519882" duration="7647000" />
       <workItem from="1753284814859" duration="230000" />
       <workItem from="1753285119166" duration="1893000" />
-    </task>
-    <task id="LOCAL-00002" summary="js作用域">
-      <option name="closed" value="true" />
-      <created>1748359435736</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748359435736</updated>
+      <workItem from="1754063656825" duration="81000" />
     </task>
     <task id="LOCAL-00003" summary="js作用域">
       <option name="closed" value="true" />
@@ -522,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753284939241</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="发布订阅">
+      <option name="closed" value="true" />
+      <created>1754063722940</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1754063722941</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajax" />
     <MESSAGE value="拷贝" />
     <MESSAGE value="this" />
     <MESSAGE value="防抖" />
@@ -585,6 +568,7 @@
     <MESSAGE value="问卷调查" />
     <MESSAGE value="kling" />
     <MESSAGE value="低代码平台" />
-    <option name="LAST_COMMIT_MESSAGE" value="低代码平台" />
+    <MESSAGE value="发布订阅" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布订阅" />
   </component>
 </project>
