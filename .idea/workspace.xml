@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="发布订阅">
-      <change afterPath="$PROJECT_DIR$/react/前端路由/hash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/前端路由/history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/前端路由/readme.md" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="前端路由">
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/corpus/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/lib/corpus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/lib/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/lib/random.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/article_gennerator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/advanced/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +122,7 @@
       <workItem from="1753284814859" duration="230000" />
       <workItem from="1753285119166" duration="1893000" />
       <workItem from="1754063656825" duration="81000" />
-      <workItem from="1754234452813" duration="1956000" />
-    </task>
-    <task id="LOCAL-00004" summary="js作用域">
-      <option name="closed" value="true" />
-      <created>1748522415264</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1748522415264</updated>
+      <workItem from="1754234452813" duration="3627000" />
     </task>
     <task id="LOCAL-00005" summary="还原设计稿">
       <option name="closed" value="true" />
@@ -512,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754234534801</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="前端路由">
+      <option name="closed" value="true" />
+      <created>1754320836714</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1754320836714</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="拷贝" />
     <MESSAGE value="this" />
     <MESSAGE value="防抖" />
     <MESSAGE value="类型判断和类型转换" />
@@ -575,6 +578,7 @@
     <MESSAGE value="kling" />
     <MESSAGE value="低代码平台" />
     <MESSAGE value="发布订阅" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布订阅" />
+    <MESSAGE value="前端路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端路由" />
   </component>
 </project>
