@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="前端路由">
-      <change beforePath="$PROJECT_DIR$/node/advanced/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node/advanced/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="面试" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,23 +114,7 @@
       <workItem from="1753285119166" duration="1893000" />
       <workItem from="1754063656825" duration="81000" />
       <workItem from="1754234452813" duration="3627000" />
-      <workItem from="1755012899602" duration="623000" />
-    </task>
-    <task id="LOCAL-00005" summary="还原设计稿">
-      <option name="closed" value="true" />
-      <created>1748705868244</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1748705868244</updated>
-    </task>
-    <task id="LOCAL-00006" summary="还原设计稿">
-      <option name="closed" value="true" />
-      <created>1748768358264</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1748768358264</updated>
+      <workItem from="1755012899602" duration="1113000" />
     </task>
     <task id="LOCAL-00007" summary="闭包">
       <option name="closed" value="true" />
@@ -510,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754320836714</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="面试">
+      <option name="closed" value="true" />
+      <created>1755013657584</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1755013657586</updated>
+    </task>
+    <task id="LOCAL-00055" summary="面试">
+      <option name="closed" value="true" />
+      <created>1755013746705</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1755013746705</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this" />
     <MESSAGE value="防抖" />
     <MESSAGE value="类型判断和类型转换" />
     <MESSAGE value="ReAct" />
@@ -573,6 +570,7 @@
     <MESSAGE value="低代码平台" />
     <MESSAGE value="发布订阅" />
     <MESSAGE value="前端路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端路由" />
+    <MESSAGE value="面试" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试" />
   </component>
 </project>
