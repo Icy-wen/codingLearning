@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function jsonp(url,cb){
+            return new Promise((resolve,reject)=>{
+const script = document.createElement('script')
+            script.src = `${url}?cb=${cb}`
+            //提前准备一个名为callback的函数
+            window[cb]=function(data){
+                resolve(data)
+
+            }
+            document.body.appendChild(script)
+            })
+        }
+        jsonp('http://localhost:3000','callback').then(res=>{
+            console.log(res);
+        })
+
+
+    </script>
+</body>
+</html>
