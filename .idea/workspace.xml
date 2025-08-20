@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="面试">
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/demo/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/虚拟列表/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/js系列/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/js系列/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +132,8 @@
       <workItem from="1754234452813" duration="3627000" />
       <workItem from="1755012899602" duration="1113000" />
       <workItem from="1755183892885" duration="2487000" />
-    </task>
-    <task id="LOCAL-00008" summary="栈">
-      <option name="closed" value="true" />
-      <created>1749134521210</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1749134521210</updated>
+      <workItem from="1755593923420" duration="1730000" />
+      <workItem from="1755681213893" duration="103000" />
     </task>
     <task id="LOCAL-00009" summary="栈">
       <option name="closed" value="true" />
@@ -511,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755184180346</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="面试">
+      <option name="closed" value="true" />
+      <created>1755594040695</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1755594040695</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
