@@ -181,9 +181,12 @@ Object.prototype.toString.call(xx) -- 让xx 执行对象上的toString 方法
 # 15. js 中的本地存储有哪些，区别是什么？
 cookies (这个空间中存放的内容 js 无法设置和修改，后端靠响应代码来存入)
 大小：4k
+方式：key-value
 过期时间：可以设置过期时间，不设置默认关闭浏览器就过期
 工作原理：浏览器会在每次请求时，将 cookies 中的内容添加到请求头中，后端可以通过请求头来获取 cookies 中的内容
 跨域：可以设置跨域
+为什么token不存在cookies中？
+
 localstorage
 大小：5M
 过期时间：不可以设置过期时间，默认永久存在
