@@ -6,6 +6,14 @@
 标准盒模型 （width = content宽度）
 IE(怪异)盒模型 （width = content宽度 + 内边距 + 边框）
 属性 box-sizing: content-box; 标准盒模型 box-sizing: border-box; IE(怪异)盒模型
+# css水平居中垂直居中方式（布局方式）
+1. 行内元素水平居中
+text-align: center;
+2. 块级元素水平居中
+margin: 0 auto;
+3. 绝对定位元素水平居中
+left: 50%;
+transform: translateX(-50%);
 
 # css选择器有哪些？优先级？
 id 选择器

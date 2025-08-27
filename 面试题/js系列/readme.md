@@ -149,7 +149,7 @@ typeof 只能判断除了 null 之外的原始类型 和 function
 instanceof 只能判断引用类型
 Array.isArray()
 Object.prototype.toString.call(xx) -- 让xx 执行对象上的toString 方法
-对象上的toString --- 返回一个由 '[object' 和 内部属性 [[Class]] 的值和 ']' 组成的字符串
+对象上的toStirng --- 返回一个由 '[object' 和 内部属性 [[Class]] 的值和 ']' 组成的字符串
 数组上的toString --- 返回一个由数组元素组成的字符串，每个元素之间用逗号隔开
 其他类型上的toString --- 返回一个字符串字面量，如：'123'
 
