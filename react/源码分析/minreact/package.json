@@ -1,0 +1,15 @@
+{
+  "name": "minreact",
+  "version": "1.0.0",
+  "description": "1. jsx的html 被 createElement 转换成虚拟dom对象\r 2. 在虚拟dom中，父子节点的关系是通过 children 数组来表示的，\r 为了让父子结点关联更密切，查找更高效，react将vdom处理成fiber（链表），\r 于是在结点处理时可以高并发\r 3. 18 版本之前是基于React Element递归渲染，18版本之后基于fiber链表的迭代渲染，计算量减少，渲染效率提高。\r 主要是因为链表循环时可以打断的，处理到某个结点可以停下来渲染其它结点。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
