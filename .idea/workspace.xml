@@ -6,23 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="源码">
       <change afterPath="$PROJECT_DIR$/react/react-palyground/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/public/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/test/App-test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/test/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/test/iframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/vite.config.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.d.ts.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.html" afterDir="false" />
@@ -168,13 +151,8 @@
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/src/min-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/源码分析/minreact/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/源码分析/minreact/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,15 +270,7 @@
       <workItem from="1755593923420" duration="1730000" />
       <workItem from="1755681213893" duration="103000" />
       <workItem from="1756306836440" duration="1668000" />
-      <workItem from="1756740555243" duration="752000" />
-    </task>
-    <task id="LOCAL-00013" summary="全栈开发">
-      <option name="closed" value="true" />
-      <created>1749656417696</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1749656417696</updated>
+      <workItem from="1756740555243" duration="1678000" />
     </task>
     <task id="LOCAL-00014" summary="全栈开发">
       <option name="closed" value="true" />
@@ -686,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756307032232</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="源码">
+      <option name="closed" value="true" />
+      <created>1756741865521</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1756741865522</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
