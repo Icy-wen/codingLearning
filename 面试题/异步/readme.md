@@ -42,3 +42,32 @@
 2. 状态：fulfilled和rejected
 3. 值：成功的值或者失败的原因
 
+# Generator函数（生成器）
+- 迭代 vs 循环
+- 生成器函数
+1. 函数名前加*
+2. 函数中可以使用yield关键字，yield关键字可以暂停函数的执行
+3. 调用生成器函数不会立即执行函数，而是返回一个迭代器对象
+4. 迭代器对象有next方法，调用next方法返回一个对象，执行一个yield语句，返回一个对象有value和done属性
+5. value属性是yield后面的表达式的值,next接收参数，作为上一个yield语句的返回值
+6. done属性是一个布尔值，true表示迭代完成，false表示迭代未完成
+
+
+# async await
+1. async函数返回一个promise对象
+2. await关键字只能在async函数中使用
+3. await关键字后面可以接一个promise对象，会将promise resolve出来的值读取到，
+也可以接一个普通的值,但如果是普通值await对他们没有影响，不具备处理异步的能力
+4. await关键字后面的promise对象会阻塞async函数的执行，等待promise对象状态改变，
+    才会继续执行async函数
+5. async函数中可以使用try catch捕获错误
+
+aysnc await= generator + co + promise
+- 实现原理
+async/await 本质上是 Generator 函数结合自动执行器（类似上述 co 函数）的语法糖。
+其原理是：async 函数会被编译为一个返回 Promise 的 Generator 函数，
+而 await 关键字相当于 Generator 中的 yield，用于暂停执行并等待异步操作完成。
+JavaScript 引擎内置了类似 co 函数的自动执行逻辑，会自动驱动 Generator 函数执行 —— 在遇到 await 时暂停，
+等待后面的 Promise 状态改变后，将结果作为 await 的返回值传入，再恢复函数执行，
+直到所有异步操作完成，最终将函数返回值包装成 Promise resolve 出去，
+从而实现了用同步代码风格编写异步逻辑的效果，简化了 Generator 函数需要手动编写执行器的复杂性。

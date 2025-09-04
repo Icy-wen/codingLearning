@@ -85,7 +85,6 @@ class MyPromise {
                 }
             )
             }
-
         })
     }
     static all(promises){
@@ -156,8 +155,7 @@ class MyPromise {
                     results[i]={
                         status:'fulfilled',
                         value
-                    }
-                    
+                    }                  
                 },
                 (reason)=>{
                     results[i]={

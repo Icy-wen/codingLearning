@@ -4,155 +4,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="源码">
-      <change afterPath="$PROJECT_DIR$/react/react-palyground/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.d.ts.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/dist/min-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsc.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsc.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsserver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsserver.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.bin/tsserver.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/ThirdPartyNoticeText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/bin/tsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/bin/tsserver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/_tsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/_tsserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/_typingsInstaller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/cs/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/de/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/es/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/fr/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/it/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/ja/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/ko/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.decorators.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.decorators.legacy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.dom.asynciterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.dom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.dom.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.core.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.generator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.proxy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.reflect.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.symbol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2016.array.include.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2016.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2016.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2016.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.arraybuffer.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.date.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2018.regexp.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2019.symbol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.bigint.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.date.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.number.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2021.weakref.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.error.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.regexp.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2022.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2023.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2023.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2023.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2023.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2023.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.arraybuffer.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.regexp.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es2024.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es5.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.es6.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.decorators.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.disposable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.error.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.float16.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.iterator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.esnext.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.scripthost.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.webworker.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/lib.webworker.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/pl/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/ru/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/tr/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/tsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/tsserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/tsserverlibrary.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/tsserverlibrary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/typesMap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/typescript.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/typescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/typingsInstaller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/watchGuard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/源码分析/minreact/node_modules/typescript/package.json" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="异步">
+      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/控制并发/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/控制并发/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/数组去重/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/数组去重/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/copy/copy-sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/copy/copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/copy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/empty/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/symlink-paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/symlink-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/ensure/symlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/esm.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/fs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/json/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/json/jsonfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/json/output-json-sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/json/output-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/mkdirs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/mkdirs/make-dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/mkdirs/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/move/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/move/move-sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/move/move.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/output-file/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/path-exists/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/remove/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/util/stat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/lib/util/utimes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/fs-extra/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/graceful-fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/legacy-streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/graceful-fs/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/jsonfile/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/jsonfile/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/jsonfile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/jsonfile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/jsonfile/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/multiparty/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/multiparty/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/multiparty/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/multiparty/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/multiparty/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/random-bytes/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/random-bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/random-bytes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/random-bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/random-bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/toidentifier/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/toidentifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/toidentifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/toidentifier/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/toidentifier/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/uid-safe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/uid-safe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/uid-safe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/uid-safe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/uid-safe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/qiepian/张杰-如歌.mflac-chunks/张杰-如歌.mflac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/源码分析/minreact/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/react/源码分析/minreact/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/异步/MyPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/异步/MyPromise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/异步/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/异步/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +150,9 @@
     &quot;accountId&quot;: &quot;721f6ecc-7298-4b8f-8488-70dd16ccb4e4&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/react/源码分析/react-lazyload/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -271,14 +244,7 @@
       <workItem from="1755681213893" duration="103000" />
       <workItem from="1756306836440" duration="1668000" />
       <workItem from="1756740555243" duration="1678000" />
-    </task>
-    <task id="LOCAL-00014" summary="全栈开发">
-      <option name="closed" value="true" />
-      <created>1749734944688</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1749734944688</updated>
+      <workItem from="1756820688171" duration="5082000" />
     </task>
     <task id="LOCAL-00015" summary="对象">
       <option name="closed" value="true" />
@@ -664,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756741865522</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="异步">
+      <option name="closed" value="true" />
+      <created>1756822567250</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1756822567250</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +676,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="切图练习" />
     <MESSAGE value="時間循環" />
     <MESSAGE value="彈性佈局" />
     <MESSAGE value="更新" />
@@ -727,6 +700,7 @@
     <MESSAGE value="hook" />
     <MESSAGE value="immutable" />
     <MESSAGE value="源码" />
-    <option name="LAST_COMMIT_MESSAGE" value="源码" />
+    <MESSAGE value="异步" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步" />
   </component>
 </project>
