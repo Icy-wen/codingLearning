@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="异步">
-      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/控制并发/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/控制并发/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/数组去重/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大厂经典考题/数组去重/index2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/client/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/index.js" afterDir="false" />
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="大文件上传">
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/.package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/History.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/LICENSE" afterDir="false" />
@@ -117,12 +109,7 @@
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/universalify/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/qiepian/张杰-如歌.mflac-chunks/张杰-如歌.mflac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试题/异步/MyPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/异步/MyPromise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试题/异步/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/异步/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,15 +231,7 @@
       <workItem from="1755681213893" duration="103000" />
       <workItem from="1756306836440" duration="1668000" />
       <workItem from="1756740555243" duration="1678000" />
-      <workItem from="1756820688171" duration="5082000" />
-    </task>
-    <task id="LOCAL-00015" summary="对象">
-      <option name="closed" value="true" />
-      <created>1749741451085</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1749741451085</updated>
+      <workItem from="1756820688171" duration="6678000" />
     </task>
     <task id="LOCAL-00016" summary="this">
       <option name="closed" value="true" />
@@ -638,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756822567250</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="大文件上传">
+      <option name="closed" value="true" />
+      <created>1756997659874</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1756997659874</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="時間循環" />
     <MESSAGE value="彈性佈局" />
     <MESSAGE value="更新" />
     <MESSAGE value="react" />
@@ -701,6 +687,7 @@
     <MESSAGE value="immutable" />
     <MESSAGE value="源码" />
     <MESSAGE value="异步" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步" />
+    <MESSAGE value="大文件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="大文件上传" />
   </component>
 </project>
