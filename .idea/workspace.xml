@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="大文件上传">
+    <list default="true" id="5894f0f4-a08a-44ac-a86d-839460b4b6e4" name="更改" comment="。。">
+      <change afterPath="$PROJECT_DIR$/面试题/react/keepalive/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/.package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/History.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/面试题/大文件上传/server/node_modules/depd/LICENSE" afterDir="false" />
@@ -150,26 +151,26 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.1.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/study program/coding/面试题/webpack/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\study program\\coding\\react\\lowcode-editor\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.1.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/study program/coding/面试题/webpack/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "D:\\study program\\coding\\react\\源码分析\\minreact\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study program\coding\面试题\webpack\demo" />
@@ -232,38 +233,8 @@
       <workItem from="1756306836440" duration="1668000" />
       <workItem from="1756740555243" duration="1678000" />
       <workItem from="1756820688171" duration="6678000" />
-    </task>
-    <task id="LOCAL-00016" summary="this">
-      <option name="closed" value="true" />
-      <created>1749997975493</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1749997975493</updated>
-    </task>
-    <task id="LOCAL-00017" summary="队列">
-      <option name="closed" value="true" />
-      <created>1749998196818</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1749998196818</updated>
-    </task>
-    <task id="LOCAL-00018" summary="functionCall">
-      <option name="closed" value="true" />
-      <created>1750164555858</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1750164555858</updated>
-    </task>
-    <task id="LOCAL-00019" summary="promise">
-      <option name="closed" value="true" />
-      <created>1750434223380</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1750434223380</updated>
+      <workItem from="1757516609144" duration="1031000" />
+      <workItem from="1757777109047" duration="4513000" />
     </task>
     <task id="LOCAL-00020" summary="ajax">
       <option name="closed" value="true" />
@@ -625,7 +596,39 @@
       <option name="project" value="LOCAL" />
       <updated>1756997659874</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="。。">
+      <option name="closed" value="true" />
+      <created>1757517040574</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1757517040574</updated>
+    </task>
+    <task id="LOCAL-00066" summary="。。">
+      <option name="closed" value="true" />
+      <created>1757777249632</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1757777249633</updated>
+    </task>
+    <task id="LOCAL-00067" summary="。。">
+      <option name="closed" value="true" />
+      <created>1757951799298</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1757951799298</updated>
+    </task>
+    <task id="LOCAL-00068" summary="。。">
+      <option name="closed" value="true" />
+      <created>1758033077632</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1758033077632</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="彈性佈局" />
     <MESSAGE value="更新" />
     <MESSAGE value="react" />
     <MESSAGE value="leetcode" />
@@ -688,6 +690,7 @@
     <MESSAGE value="源码" />
     <MESSAGE value="异步" />
     <MESSAGE value="大文件上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="大文件上传" />
+    <MESSAGE value="。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。" />
   </component>
 </project>
